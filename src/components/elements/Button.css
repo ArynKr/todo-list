@@ -1,0 +1,17 @@
+.btn {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 0.25em;
+  border: none;
+  outline: none;
+}
+
+.bg-pink-purple {
+  background-color: var(--clr-pink-purple);
+  color: var(--clr-white);
+  cursor: pointer;
+}
+
+.w-1 {
+  width: 10rem;
+}

@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  gap: 2rem;
+}
+
+.data {
+  width: 40rem;
+}
+
+.data-label {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.data-input {
+  width: 100%;
+  outline: none;
+  background-color: #5c5c5c;
+  color: var(--clr-white);
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border: 0;
+  border-radius: 0.25em;
+}
+
+::placeholder {
+  color: var(--clr-white);
+  opacity: 0.5;
+}
+
+.submit {
+  margin-top: auto;
+}

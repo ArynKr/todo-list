@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Custom CSS  */
+:root {
+  --clr-grey-bg: #171717;
+  --clr-white: #FFFFFF;
+  --clr-pink-purple: #C620A7;
+  --clr-grey-primary: #2F2F2F;
+  --clr-grey-lines: #5C5C5C;
+  --clr-grey-secondary: #202020;
+  --clr-grey-delete: #AFAFAF;
+  --clr-green: #7AB530;
+   /*
+    drop shadow: x-0 y-0 blur-16 opacity-80%
+   */
+}
+
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  font-weight: 400;
+}
+#root, #__next {
+  isolation: isolate;
+}
+/* CSS Reset End */
+
+/* Custom CSS End  */
