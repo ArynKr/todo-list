@@ -10,16 +10,16 @@
 - [x] Reset CSS
 - [x] Header
 - [x] Input Form
-- [ ] Todo List
+- [x] Todo List
 
 ### API
 
-- [ ] Fetch Todos from API
-- [ ] Add Todo Functionality
-- [ ] Remove Todo Functionality
-- [ ] Update Todo Functionality
+- [x] Fetch Todos from API
+- [x] Add Todo Functionality
+- [x] Remove Todo Functionality
+- [x] Update Todo Functionality
 - [ ] Filtering tasks by “completed or incomplete”
-- [ ] Hosting
+- [x] Hosting
 
 ### Other
 
