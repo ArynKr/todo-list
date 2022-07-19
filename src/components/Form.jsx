@@ -34,7 +34,7 @@ export default function Form({ todos, setTodos }) {
   };
 
   return (
-    <form className='form' onSubmit={handleAddTodo}>
+    <form className='form' autoComplete='off' onSubmit={handleAddTodo}>
       <div className='data'>
         <label htmlFor='newTodo' className='data-label'>
           Add a new task in the list
