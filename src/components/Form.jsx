@@ -16,8 +16,11 @@ export default function Form({ todos, setTodos }) {
       completed: false,
     };
     setTodos([data, ...todos]);
+    setNewTodo('');
 
     try {
+      if (data.title.length < 1) throw new Error('Cannot enter empty task');
+
       const res = await axios.post(
         'https://jsonplaceholder.typicode.com/todos',
         data
@@ -26,6 +29,7 @@ export default function Form({ todos, setTodos }) {
     } catch (err) {
       console.log(err);
       setTodos(todos.filter((todo) => todo.id !== id));
+      setNewTodo(data.title);
     }
   };
 
