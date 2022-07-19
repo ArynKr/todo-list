@@ -7,6 +7,14 @@ function App() {
       <div className='todo-app'>
         <TodoApp />
       </div>
+      <div className='footer'>
+        <p>
+          Made by{' '}
+          <a href='https://www.aryankumar.in' target='_blank' rel='noreferrer'>
+            Aryan Kumar
+          </a>
+        </p>
+      </div>
     </main>
   );
 }
