@@ -25,7 +25,7 @@ export default function TodoApp() {
         <Form todos={todos} setTodos={setTodos} />
       </div>
       <div className='todos'>
-        <Todos todos={todos} />
+        <Todos todos={todos} setTodos={setTodos} />
       </div>
     </>
   );
