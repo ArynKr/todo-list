@@ -4,14 +4,27 @@
   border-radius: 0.25em;
   border: none;
   outline: none;
+  cursor: pointer;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  color: #9f9f9f;
 }
 
 .bg-pink-purple {
   background-color: var(--clr-pink-purple);
   color: var(--clr-white);
-  cursor: pointer;
+}
+
+.pink {
+  color: var(--clr-pink-purple);
 }
 
 .w-1 {
   width: 10rem;
+}
+
+.w-2 {
+  width: 15rem;
 }
