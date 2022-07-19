@@ -50,7 +50,7 @@ export default function Form({ todos, setTodos }) {
         />
       </div>
       <div className='submit'>
-        <Button text='Submit' />
+        <Button text='Submit' width='w-3' />
       </div>
     </form>
   );
